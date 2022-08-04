@@ -1,0 +1,24 @@
+{
+    "clusterproperty": [
+        {
+            "name": "demo.backend.host",
+            "value": "l7gw:8443",
+            "id": "f76ae94c44ab58230d854abc0966b548"
+        },
+        {
+            "name": "demo.setting",
+            "value": "demo",
+            "id": "f76ae94c44ab58230d854abc0966b212"
+        },
+        {
+            "name": "demo.transformerPath",
+            "value": "\/demo\/migration\/jsontransform",
+            "id": "f76ae94c44ab58230d854abc0966b2b6"
+        },
+        {
+            "name": "deploydemo.cwp",
+            "value": "a value from testgw",
+            "id": "868ca554e108a6e74c8680b45f50d6e5"
+        }
+    ]
+}
