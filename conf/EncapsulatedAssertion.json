@@ -1,0 +1,62 @@
+{
+    "encapsulatedassertion": [
+        {
+            "name": "demo_returnRequestParameterAsJSON",
+            "guid": "14bb7541-8b93-4a6a-b294-bc8981f25cdd",
+            "policyReference": {
+                "id": "f76ae94c44ab58230d854abc0966ad89",
+                "resourceUri": "http:\/\/ns.l7tech.com\/2010\/04\/gateway-management\/policies"
+            },
+            "encapsulatedArguments": [],
+            "encapsulatedResults": {
+                "encapsulatedAssertionResult": [
+                    {
+                        "resultName": "crafted_response",
+                        "resultType": "string"
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "key": "allowTracing",
+                        "stringValue": {
+                            "value": "true"
+                        }
+                    },
+                    {
+                        "key": "description",
+                        "stringValue": {
+                            "value": "This assertion collects path, headers and payload and returns them in a JSON structure."
+                        }
+                    },
+                    {
+                        "key": "paletteFolder",
+                        "stringValue": {
+                            "value": "customAssertions"
+                        }
+                    },
+                    {
+                        "key": "paletteIconResourceName",
+                        "stringValue": {
+                            "value": "MessageBuffering-16x16.gif"
+                        }
+                    },
+                    {
+                        "key": "passMetricsToParent",
+                        "stringValue": {
+                            "value": "false"
+                        }
+                    },
+                    {
+                        "key": "policyGuid",
+                        "stringValue": {
+                            "value": "d3b84cd3-3186-472f-b1d3-0d1a56191cd3"
+                        }
+                    }
+                ]
+            },
+            "id": "f76ae94c44ab58230d854abc0966b1b8"
+        }
+    ]
+}
